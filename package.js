@@ -1,7 +1,7 @@
 Package.describe({
     name: 'risul:chance',
     summary: 'Meteor package for Chance - Random generator helper for JavaScript: http://chancejs.com',
-    version: '1.0.2',
+    version: '1.0.5',
     git: 'https://github.com/risul/meteor-chance'
 });
 

@@ -14,13 +14,14 @@ Meteor package for [Chance](http://chancejs/) - a minimalist generator of random
 On client:
 
 ```js
-    chance.integer();
+    chance.name();
 ```
 
 On server:
 
 ```js
-    new Chance().integer();
+    var chance = new Chance()
+    chance.name()
 ```
 
 ## Documentaion
