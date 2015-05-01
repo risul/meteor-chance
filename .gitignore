@@ -1,4 +1,4 @@
 .build*
 .npm*
 .idea/*
-
+.versions
