@@ -1,29 +1,9 @@
-# Chance for Meteor
+# Deprecated
 
-Meteor package for [Chance](http://chancejs/) - a minimalist generator of random strings, numbers, etc. to help reduce some monotony particularly while writing automated tests or anywhere else you need anything random.
+Since Meteor 1.3 ships with support for `npm install` and ES2015 modules support on the client+server, this wrapping package is no longer required or recommended. Please update to Meteor 1.3 and use the official npm package.
 
+The legacy README has [moved](README-legacy.md).
 
-## Installing
+## License
 
-```bash
-    meteor add risul:chance
-```
-
-## Usage
-
-On client:
-
-```js
-    chance.name();
-```
-
-On server:
-
-```js
-    var chance = new Chance()
-    chance.name()
-```
-
-## Documentaion
-
-See the official [documentation](http://chancejs.com/#usage) for more info
+MIT. (c) Percolate Studio, (no longer) maintained by Zoltan Olah (@zol).
